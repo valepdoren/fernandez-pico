@@ -4,43 +4,43 @@
 }
 
 body{
-	background:rgba(255,255,255,1);
+	background:rgba(249, 243, 231, 1);
 	color:rgba(25,25,25,1);
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	font-weight:300;
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
+	font-family: 'Signika', sans-serif;
+	font-weight:700;
 }
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	color:rgba(231, 210, 166, 1);
+	text-shadow: 1px 1px 0 #999;
 	text-align:center;
 }
 
 h2{
-	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
-	padding:0.2em 0; 
+	letter-spacing:0.02em;
+	color:white;
+	padding:0.2em 0;
 	text-shadow: 1px 1px 0 #999;
-	text-align:center;		
+	text-align:center;
 }
 
 h3{
-	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
-	padding:2em 0 0.6em 0; 
+	letter-spacing:0.2em;
+	color:rgba(0,0,0,.75);
+	padding:2em 0 0.6em 0;
 	text-shadow: 1px 1px 0 #ccc;
-	text-align:center;	
+	text-align:center;
 }
 
 h4, h5, h6{
 	font-weight:left;
-	font-weight:600; 	
+	font-weight:600;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -52,6 +52,7 @@ header{
 	text-align:center;
 	z-index:9;
 	color:white;
+	font-size:30px;
 }
 
 @media screen and (max-width: 980px){
@@ -94,7 +95,7 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
+	background-color:rgba(249, 243, 231, 1);
 	background-image:url('media/dupla-01.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
@@ -111,7 +112,7 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
+	background-color:rgba(249, 243, 231, 1);
 	background-image:url('media/dupla-02.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
@@ -154,25 +155,27 @@ video{
 }
 
 .item figure img{
-	width:100%; 
-	height:auto; 
+	width:100%;
+	height:auto;
 	margin-bottom:-4px;
 	filter: grayscale(1);
 }
 
 .item:hover figure img{
 	transform:scale(1.25);
-	filter: grayscale(0);	
+	filter: grayscale(0);
 	transition:all ease-out 0.5s;
 }
 
 .item h4{
+	text-align:center;
 	font-size:1em;
 	letter-spacing:0.025em;
 	margin:5% 5% 3% 5%;
 }
 
 .item p{
+	text-align:center;
 	font-size:0.875em;
 	letter-spacing:0.05em;
 	margin:2% 5% 6% 5%;
@@ -182,8 +185,8 @@ footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 	
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
 }
 
 footer p{
